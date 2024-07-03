@@ -1,0 +1,19 @@
+.formulario{
+  background-color: rgb(227, 227, 227);
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    transform: translateY(20px);
+    margin-left: 400px;
+    gap: 40px;
+    border-radius: 20px
+}
+.datps{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  transform: translateY(50px);
+}
