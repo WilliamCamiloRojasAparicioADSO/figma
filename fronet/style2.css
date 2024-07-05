@@ -1,19 +1,40 @@
-.formulario{
-  background-color: rgb(227, 227, 227);
-    width: 600px;
-    height: 600px;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    transform: translateY(20px);
-    margin-left: 400px;
-    gap: 40px;
-    border-radius: 20px
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.datps{
+.im1{
+  width: 1279px;
+}
+.dato{
+  background-color: transparent;
+  width: 500px;
+  height: 420px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  align-items: center;
-  transform: translateY(50px);
+  gap: 50px;
+  margin-left: 400px;
+  border-radius: 10px;
+  border: solid black;
+  transform: translateY(-20px);
+  
+}
+.dato1{
+  margin-left: 130px;
+  transform: translateY(10px);
+}
+.dat{
+  margin-left: 10px;
+  
+
+}
+label{
+  font-size: 20px;
+}
+.botton{
+ margin-left: 190px;
+  width: 30vh;
+  height: 30px;
+  border-radius: 40px;
+ 
 }

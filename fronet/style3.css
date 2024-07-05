@@ -1,28 +1,37 @@
-.container{
-    background-color: rgb(201, 201, 201);
-    width: 600px;
-    height: 400px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.im1{
+    width: 50vh;
+    height: 30vh;
+    position: absolute;
+  
+  } 
+.im2{
+    width: 50vh;
+    height: 30vh;
+    transform: translateY(70vh);
+    margin-left: 1000px;
+  }
+  .clave{
+    border:solid black ;
+    border-radius: 20px;
+    width: 80vh;
+    height: 250px;
     margin-left: 400px;
-
-}
-.img{
-    width: 600px;
-    height: 100px;
-}
-.header{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 40px;
-    margin-left: 150px;
-    gap: 20px;
-}
-h1{
+    gap: 60px;
+  }
+  .uno{
+    transform: translateY(20px);
+    margin-left: 90px;
     font-size: 20px;
-}
-h2{
-    font-size: 20px;
-}
-.button{
-    margin-left: 100px;
+  }
+.validar{
+    width: 100px;
+    height: 20px;
+    margin-left: 30vh;
 }
